@@ -1,7 +1,93 @@
-#menu
+/* #menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
 	background: white;
+} */
+header{
+	text-align: left;
+	border-top-left-radius: 0mm;
+}
+menu {
+    width: 100%;
+	left: 0;
+    top: 0;
+	background-color: rgb(201, 201, 201);
+	overflow: hidden;
+	display: flex;
+	position: fixed;
+	float: center;
+}
+
+menu a {
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:fantasy;
+	font-style:normal;
+	line-height: 50px;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	color: white;
+	cursor: pointer;
+}
+menu a:hover {
+	background-color: #ffffff;
+	color: black;
+}
+
+menu a.active {
+	background-color: rgb(201, 201, 201);
+	color: black;
+}
+.section{
+	text-align: center;
+}
+
+
+
+body{background:#444;}
+.divider {
+  height: .5px;
+  background: #000;
+  background: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(50,50,50) 50%, rgb(255,255,255) 100%);
+}
+
+        
+.divider {								/* minor cosmetics */
+	display: table; 
+	font-size: 24px; 
+	text-align: center; 
+	width: 100%; 						/* divider width */
+	margin: 40px auto;					/* spacing above/below */
+}
+.divider span { display: table-cell; position: relative; }
+.divider span:first-child, .divider span:last-child {
+	width: 50%;
+	top: 13px;							/* adjust vertical align */
+	-moz-background-size: 100% 2px; 	/* line width */
+	background-size: 100% 2px; 			/* line width */
+	background-position: 0 0, 0 100%;
+	background-repeat: no-repeat;
+}
+.divider span:first-child {				/* color changes in here */
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
+	background-image: -webkit-linear-gradient(180deg, transparent, #000);
+	background-image: -moz-linear-gradient(180deg, transparent, #000);
+	background-image: -o-linear-gradient(180deg, transparent, #000);
+	background-image: linear-gradient(90deg, transparent, #000);
+}
+.divider span:nth-child(2) {
+	color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.divider span:last-child {				/* color changes in here */
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+	background-image: -webkit-linear-gradient(180deg, #000, transparent);
+	background-image: -moz-linear-gradient(180deg, #000, transparent);
+	background-image: -o-linear-gradient(180deg, #000, transparent);
+	background-image: linear-gradient(90deg, #000, transparent);
 }
