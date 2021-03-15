@@ -1,13 +1,19 @@
+.site{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient( rgb(248, 241, 241), rgb(128, 122, 122));
+}
 
 .menubar{
 	display: flex;
+	justify-content: space-evenly;
 	width: 100%;
 	left: 0;
 	right: 0;
     top: 0;
-	color: #333;
+	color: rgb(0, 0, 0);
 	background: rgba(0,0,0,0.8);
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgb(0, 0, 0);
 	overflow: hidden;
 	position: fixed;
 	float: center;
@@ -45,12 +51,15 @@ menu a.active {
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-style: normal;
 	font-size: 17px;
+	display: flex;
+	flex-direction: column;
 }
 
 .divider{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: row;
+	align-items: center;
 }
 
 #photos{
@@ -69,13 +78,32 @@ menu a.active {
 }
 
 .grad{
-	height: 15px;
-	width: 45%;
+	height: 10px;
+	width: 40%;
 	background-image: linear-gradient(to right, rgb(201, 201, 201), rgb(37, 44, 44));
 }
 
 .reverseGrad{
-	height: 15px;
-	width:45%;
+	height: 10px;
+	width:40%;
 	background-image: linear-gradient(to left, rgb(201, 201, 201), rgb(37, 44, 44));
+}
+
+.h1{
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-style: normal;
+}
+
+.info{
+	margin: auto;
+	width: 80%;
+	background-color: rgba(185, 190, 190, 0.856);
+}
+
+.title{
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-style: normal;
+	font-size: 24px;
+	font-display:inherit;
+	text-shadow: 1px 1px;
 }
