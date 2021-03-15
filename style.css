@@ -64,17 +64,22 @@ menu a.active {
 
 #photos{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .photo {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
+	/* text-align: center; */
 }
 
 .photoDescription{
-	width:20%
+	width:100%
 }
 
 .grad{
