@@ -1,7 +1,7 @@
 .site{
 	display: flex;
 	flex-direction: column;
-	background-image: linear-gradient( rgb(248, 241, 241), rgb(128, 122, 122));
+	background-image: linear-gradient( rgb(182, 182, 181), rgb(66, 66, 66));
 }
 
 .menubar{
@@ -11,7 +11,7 @@
 	left: 0;
 	right: 0;
     top: 0;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	background: rgba(0,0,0,0.8);
 	background-color: rgb(0, 0, 0);
 	overflow: hidden;
@@ -64,7 +64,7 @@ menu a.active {
 
 #photos{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	text-align: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -75,7 +75,7 @@ menu a.active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* text-align: center; */
+	color: rgb(255, 255, 255);;
 }
 
 .photoDescription{
@@ -102,7 +102,11 @@ menu a.active {
 .info{
 	margin: auto;
 	width: 80%;
-	background-color: rgba(185, 190, 190, 0.856);
+	/* background-color: rgba(233, 215, 134, 0.685); */
+	border-color: black;
+	border-width: 7mm;
+	border-radius: 9mm;
+	color: rgb(255, 255, 255);;
 }
 
 .title{
@@ -112,3 +116,8 @@ menu a.active {
 	font-display:inherit;
 	text-shadow: 1px 1px;
 }
+
+.imageContainer > img:hover {
+	width: 500px;
+	height: 200px;
+  }

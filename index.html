@@ -19,7 +19,6 @@
       <a class="menuItem" href="#qrcoder">QR Code</a>
       <a class="menuItem" href="#spa">Q & A</a>
       <a class="menuItem" href="#contact">Contact Me</a>
-      <!-- <div class="menu"></div> -->
     </menu>
     <br />
     <br />
@@ -28,7 +27,7 @@
   </div>
   
   <div>
-    <section class="section">
+    <section class="section" id="about">
       <div class="divider">
         <div class="grad"></div>
         <div class="title">About Me</div>
@@ -110,27 +109,34 @@
       </div>
       
       <div id="photos">
+
         <div class="photo">
-          <div>
-            <img src="maya nelly.jpeg" width=300 height="300">
+          <div class="imageContainer">
+            <a href="maya nelly.jpeg" target="_blank">
+              <img src="maya nelly.jpeg" width=300 height="300">
+            </a>
           </div>
           <div class="photoDescription">
             Me and my sister Maya in Uzbekistan during the World War 2
           </div>
         </div>
-  
+
         <div class="photo">
           <div>
-            <img src="bab ded ira.jpeg" width=300 height="300">
+            <a href="bab ded ira.jpeg" target="_blank">
+              <img src="bab ded ira.jpeg" width=300 height="300">
+            </a>
           </div>
           <div class="photoDescription">
             Me, my husband and Irachka
           </div>
         </div>
-  
+
         <div class="photo">
           <div>
-            <img src="grandma in Israel.jpeg" width=300 height="300">
+            <a href="grandma in Israel.jpeg" target="_blank">
+              <img src="grandma in Israel.jpeg" width=300 height="300">
+            </a>
           </div>
           <div class="photoDescription">
             1995, Israel
@@ -139,7 +145,9 @@
   
         <div class="photo">
           <div>
-            <img src="4 generation.jpg" width=300 height="300">
+            <a href="4 generation.jpg" target="_blank">
+              <img src="4 generation.jpg" width=300 height="300">
+            </a>
           </div>
           <div class="photoDescription">
             Me, my daughters and Lia
@@ -148,7 +156,9 @@
   
         <div class="photo">
           <div>
-            <img src="grandma grandpa and daugthers.jpg" width=300 height="350">
+            <a href="grandma grandpa and daugthers.jpg" target="_blank">
+              <img src="grandma grandpa and daugthers.jpg" width=300 height="350">
+            </a>
           </div>
           <div class="photoDescription">
             Edlin Family
@@ -157,7 +167,9 @@
   
         <div class="photo">
           <div>
-            <img src="Wedding.jpg" width=320 height="300">
+            <a href="Wedding.jpg" target="_blank">
+              <img src="Wedding.jpg" width=320 height="300">
+            </a>
           </div>
           <div class="photoDescription">
             My grandson's wedding
@@ -166,7 +178,9 @@
   
         <div class="photo">
           <div>
-            <img src="1.jpg" width=300 height="300">
+            <a href="1.jpg" target="_blank">
+              <img src="1.jpg" width=300 height="300">
+            </a>
           </div>
           <div class="photoDescription">
             Me, Gregory, Lia, Itay
@@ -175,7 +189,9 @@
 
         <div class="photo">
           <div>
-            <img src="3 generations.jpeg" width=300 height="280">
+            <a href="3 generations.jpeg" target="_blank">
+              <img src="3 generations.jpeg" width=300 height="280">
+            </a>
           </div>
           <div class="photoDescription">
             Me, Ira and Dana
@@ -236,7 +252,15 @@
 2.	שוני בולט נוסף בין שלושתם הוא סוג האינטרקציה. ב-web1, קיימת אינטרקציה מוגבלת בלבד בין האתרים לבין משתמשי הרשת. Web2 לעומת זאת, כבר מאפשר אינטרקציה בין משתמשי האינטרנט והאתרים ברשת, כך שהם כבר מתקשרים בצורה חופשית יותר עם משתמשים אחרים.web2  מעודד השתתפות ושיתוף מידע, דוגמאות לכך ניתן לראות באפליקציות מוכרות כמו Facebook,Wiki,YouTube. Web3 מביא אינטרקציה שונה ומתקדמת עמו, הוא מאפשר יישומים דינאמיים, שירותים אינטרקטיביים ואינטרקציה בין מכונות. ב-Web3 מחשבים יכולים לנתח את התוכן ולהתאים אותו לצרכי המשתמשים.
 <br>
 3.	 שוני אחר, הוא הפורמט. Web1 כתוב בפורמט HTML\Portals, Web2 כתוב בפורמט XML\RSS ו-Web3  כתוב בפורמט RDF\RDFS\OWL.
- 
+<br>
+
+        </p>
+      </div>
+      <div>
+        <h3>הציגו את ההבדלים על ידי דוגמה של תרחיש שימוש</h3>
+        <p class="info" dir="rtl">
+
+          
 
         </p>
       </div>
@@ -250,51 +274,74 @@
       </div>
 
       <div class="section">
-        <form action="mailto:dana1997k@gmail.com" target="_blank" method="GET" enctype="text/plain">
-          Name:
+        <br/>
+        <form name="sendmail" target="_blank" method="GET" enctype="text/plain" action="mailto:dana1997k@gmail.com">
+          <p class="info">
+            Name:
+          </p>
           <br/>
           <input name="Name" type="text">
           <br/>
-          Subject: 
+          <br/>
+          <p class="info">
+            E-mail:
+          </p>
+          <br/>
+          <input name="Email" type="text">
+          <br/>
+          <br/>
+          <p class="info">
+            Subject:
+          </p>
           <br/>
           <input name="Subject" type="text">
           <br/>
-          Message: 
           <br/>
-          <textarea name="Message" cols="30" rows="10"></textarea>
+          <p class="info">
+            Message: 
+          </p>
           <br/>
-          Don't forget to add emoji:
+          <textarea id="Message" cols="30" rows="10"></textarea>
+          <br/>
+          <br/>
+          <p class="info">
+            Don't forget to add emoji:
+          </p>
           <br>
           <div>
-            &#128151
-            <input type="radio" name="emoji" value="&#128151">
-            &#128068
-            <input type="radio" name="emoji" value="&#128151">
-            &#128536
-            <input type="radio" name="emoji" value="&#128151">
-            &#128525
-            <input type="radio" name="emoji" value="&#128151">
-            &#128519
-            <input type="radio" name="emoji" value="&#128151">
-            &#128562
-            <input type="radio" name="emoji" value="&#128151">
-            &#128578
-            <input type="radio" name="emoji" value="&#128151">
-            &#128588
-            <input type="radio" name="emoji" value="&#128151">
-            &#129309
-            <input type="radio" name="emoji" value="&#128151">
+            <select id="emojis" onchange="addemoji()">
+              <option value="&#128151">&#128151</option>
+              <option value="&#128068">&#128068</option>
+              <option value="&#128536">&#128536</option>
+              <option value="&#128519">&#128519</option>
+              <option value="&#128562">&#128562</option>
+              <option value="&#128578">&#128578</option>
+              <option value="&#128588">&#128588</option>
+              <option value="&#129309">&#129309</option>
+            </select>
           </div>
+          <br>
+          <br>
           <input type="submit" value="Send">
           <input type="reset" value="reset">
           <br>
           <br>
           <br>
-          
         </form>
       </div>
     </section>
   </div>
+
+
+  <script type="text/javascript">
+    function addemoji(){
+      var emoj = document.getElementById("emojis");
+      var chosen = emoj.value;
+      var message = document.getElementById("Message");
+      message.value += chosen;
+    }
+    
+  </script>
 
   <script type="text/javascript">
     $(function () {
