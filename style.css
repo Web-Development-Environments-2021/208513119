@@ -1,23 +1,24 @@
 .site{
 	display: flex;
 	flex-direction: column;
-	background-image: linear-gradient( rgb(158, 158, 158), rgb(59, 59, 59));
+	background-image: linear-gradient( rgb(158, 158, 158), rgb(49, 49, 49));
 }
 
 .menubar{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: right;
 	width: 100%;
 	left: 0;
 	right: 0;
     top: 0;
 	color: rgb(255, 255, 255);
 	background: rgba(0,0,0,0.8);
-	background-color: rgb(0, 0, 0);
+	background-color:rgb(59, 59, 59);
 	overflow: hidden;
 	position: fixed;
 	float: center;
 	margin: 0;
+	padding-left: 0;
 	font-weight: 400;
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-style: normal;
