@@ -1,7 +1,7 @@
 .site{
 	display: flex;
 	flex-direction: column;
-	background-image: linear-gradient( rgb(182, 182, 181), rgb(66, 66, 66));
+	background-image: linear-gradient( rgb(158, 158, 158), rgb(59, 59, 59));
 }
 
 .menubar{
