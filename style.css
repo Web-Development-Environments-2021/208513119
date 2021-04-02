@@ -104,11 +104,22 @@ menu a.active {
 	margin: auto;
 	width: 80%;
 	/* background-color: rgba(233, 215, 134, 0.685); */
-	border-color: black;
-	border-width: 7mm;
-	border-radius: 9mm;
+	border-width: 1mm;
+	border-radius: 1mm;
+	border-style: solid;
+ 	border-color:#cececec9;
 	color: rgb(255, 255, 255);;
 }
+
+.message{
+	margin: auto;
+	width: 80%;
+	color: rgb(255, 255, 255);
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-style: normal;
+	font-size: 17px;
+}
+
 
 .title{
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
